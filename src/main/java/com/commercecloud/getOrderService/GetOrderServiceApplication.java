@@ -24,8 +24,8 @@ public String sayHi(){
     return "Hello Spring";
 }
 
-    @GetMapping("/{orderId}")
-    public String getOrderDetails(@PathVariable("orderId") String orderId){
+    @GetMapping("/orderDetails/{orderId}")
+    public String getOrderDetails(@PathVariable String orderId){
 
         String accessToken=userLogin("admin","admin","123456");
         RestTemplate restTemplate=new RestTemplate();
