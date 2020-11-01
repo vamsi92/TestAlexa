@@ -41,6 +41,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.dynatrace.oneagent.sdk.java/oneagent-sdk -->
+<dependency>
+    <groupId>com.dynatrace.oneagent.sdk.java</groupId>
+    <artifactId>oneagent-sdk</artifactId>
+    <version>1.7.0</version>
+</dependency>
+
 	</dependencies>
 
 	<build>
